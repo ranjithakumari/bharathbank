@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --prefix client",
-    "start": "node server.js",
+    
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently  \"npm run client\" \"npm run server\"",
@@ -23,10 +22,11 @@
     "firebase": "^9.6.2",
     "firebase-admin": "^10.0.1",
     "mongodb": "^4.3.0",
-    "mongoose": "^6.1.6",
-    "nodemon": "^2.0.7"
+    "mongoose": "^6.1.6"
+   
   },
   "engines": {"node":"14.17.6", "npm":"7.23.0"
-  }
+  },
+  "devDependencies": { "nodemon": "^2.0.7"}
 }
  
