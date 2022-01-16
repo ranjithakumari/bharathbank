@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 //const router = express.Router();
 var PORT = process.env.PORT || 8080;
 const HOST = '0.0.0.0';
-const user=require('./postRoutes.js');
+//const user=require('./postRoutes.js');
 require("dotenv").config();
 const path = require('path');
 
