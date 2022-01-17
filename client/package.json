@@ -40,6 +40,10 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "node": "14.17.6",
+    "npm": "7.23.0"
+  },
   "proxy": "http://localhost:8080/",
   "devDependencies": {
     "mini-css-extract-plugin": "2.4.5"
